@@ -1,6 +1,6 @@
 FROM openjdk:17
 
-LABEL maintainer="test@User91.de"
+LABEL maintainer="witt.seb@outlook.de"
 
 ADD backend/target/moviebankpage.jar moviebankpage.jar
 
