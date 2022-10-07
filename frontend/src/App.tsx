@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import useMovies from "./hooks/useMovies";
 import MovieGallery from "./components/MovieGallery";
-import NavBar from "./components/NavBar";
 import Homepage from "./pages/Homepage";
 
 function App() {
