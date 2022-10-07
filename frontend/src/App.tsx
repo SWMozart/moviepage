@@ -10,9 +10,12 @@ function App() {
     return (
         <div className="App">
             <header className={"App-header"}>
+                <div className="App-logo">
+                </div>
                 <h1> Movie Gallery</h1>
                 <MovieGallery movies={movies} getAllMovies={getAllMovies} postNewMovie={postNewMovie}/>
             </header>
+
         </div>
     );
 }
