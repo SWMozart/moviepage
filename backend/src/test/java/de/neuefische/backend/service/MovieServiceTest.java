@@ -42,7 +42,7 @@ class MovieServiceTest {
         when(repo.add(dummyMovie)).thenReturn(dummyMovie);
 
         //WHEN
-        Movie actual = service.addMovie(dummyMovie);
+        Movie actual = service.saveMovie(dummyMovie);
 
         //THEN
         verify(repo).add(dummyMovie);

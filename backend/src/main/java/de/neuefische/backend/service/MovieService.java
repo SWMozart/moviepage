@@ -23,7 +23,7 @@ public class MovieService {
         return repo.findAll();
     }
 
-    public Movie addMovie(Movie movie) {
+    public Movie saveMovie(Movie movie) {
         // Generate and set id for new movie
         movie.setId(idService.generateId());
 
